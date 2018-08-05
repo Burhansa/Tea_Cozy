@@ -1,0 +1,160 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  background-color: Black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+.MainContainer {
+  margin: 69px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero {
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+}
+
+.Hero .Headings {
+  height: 150px;
+  background-color: Black;
+  flex: 1;
+  text-align: center;
+
+}
+
+.FeaturedTea {
+  margin-top: 80px;
+  text-align: center;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ImgHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Tea {
+  margin: 10px 15px;
+}
+.BerryBlitz {
+  height: 200px;
+  width: 300px;
+}
+
+.SpiceRum {
+  height: 200px;
+  width: 300px;
+}
+
+.Donut {
+  height: 200px;
+  width: 300px;
+}
+
+.Ave {
+  height: 200px;
+  width: 300px;
+}
+
+.Bizarre {
+  height: 200px;
+  width: 300px;
+}
+.LocText {
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+}
+
+.LocText h2 {
+  margin: 70px 0 15px 0;
+  padding: 0;
+}
+
+
+.Locations {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Box {
+  background-color: Black;
+  margin: 0 20px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+
+}
+
+.Box h3 {
+  margin: 50px 0 40px 0;
+
+}
+
+.Contact {
+
+text-align: center;
+}
+
+
+footer h5 {
+  margin-left: 20px;
+}
